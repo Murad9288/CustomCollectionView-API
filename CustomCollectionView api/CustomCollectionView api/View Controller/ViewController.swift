@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     var cellWidth   : CGFloat = 0
     var cellHeight  : CGFloat = 0
 
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -34,6 +33,7 @@ class ViewController: UIViewController {
         fetchData()
         
     }
+
     
     func itemSize(){
         padding = UIDevice.current.userInterfaceIdiom == .phone ? 12.0 : 25.0
