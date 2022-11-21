@@ -11,7 +11,6 @@ struct Api {
     
     static let MovieApiUrl = "https://api.themoviedb.org/3/movie/top_rated?api_key=c37d3b40004717511adb2c1fbb15eda4&language=en-US&page=1"
     
-    
     //static let MovieApiUrl = "https://image.tmdb.org/t/p/w500/od22ftNnyag0TTxcnJhlsu3aLoU.jpg"
     
 }
